@@ -1,0 +1,1 @@
+package static_nonstatic_methods;
