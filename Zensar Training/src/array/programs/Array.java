@@ -20,7 +20,5 @@ public class Array {
 				 System.out.println("odd number"+arr[j]);
 			 }
 		  }
-		  System.out.println("Test");
-		  
 	}
 }

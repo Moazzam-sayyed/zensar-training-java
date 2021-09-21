@@ -25,7 +25,9 @@ public class StringMethods {
 		
 		System.out.println(name1.substring(2));			//To get string from main string
 		
-		System.out.println(name2.split("j"));
+		System.out.println(name2.split("j"));			//split string from j
+		
+		System.out.println(name1.concat(name2));
 		
 		
 		
