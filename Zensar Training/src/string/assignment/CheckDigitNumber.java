@@ -20,7 +20,7 @@ public class CheckDigitNumber {
 		{
 			System.out.println("Enter digit to find");
 			int digit = sc.nextInt();
-			System.out.println("Given Digit is:"+isDigit(number,digit));
+			System.out.println("Given Digit is present in number:"+isDigit(number,digit));
 			}
 		}
 	
@@ -29,7 +29,7 @@ public class CheckDigitNumber {
 		//boolean flag = false;
 		while(number!=0)
 		{
-			int num = number %10;
+			int num = number %10; 
 			if(num == digit)
 			{
 				return true;

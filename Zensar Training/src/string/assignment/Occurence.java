@@ -8,7 +8,7 @@ public class Occurence {
 	{
 		int count=0;
 		int i=0;
-		String strArray[] = mainString.split(" ");
+		String strArray[] = mainString.split(" ");  //split all word by space
 		for(i=0; i<strArray.length ; i++)
 		{
 			if(word.equals(strArray[i]))
@@ -27,13 +27,6 @@ public class Occurence {
 		String word = sc.next();
 		System.out.println("Occurence of word ="+findOccurence(mainString, word));
 	
-		
-
-		
-		
-		
-		
-
 	}
 
 }
