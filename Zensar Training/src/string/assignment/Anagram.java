@@ -19,10 +19,10 @@ public class Anagram {
 		}
 		else
 		{
-			Arrays.sort(charArray1);
+			Arrays.sort(charArray1);    	//sort array of type char 
 			Arrays.sort(charArray2); 
 			
-			if(Arrays.equals(charArray1, charArray2))
+			if(Arrays.equals(charArray1, charArray2))      //compare both arrays
 			{
 				System.out.println(firstString+" and "+secondString+" are anagram ");
 			}
